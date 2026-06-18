@@ -81,6 +81,7 @@ void relatorios() {
         printf("4 - Alunos com mais emprestimos\n");
         printf("5 - Historico emprestimos\n");
         printf("0 - Voltar\n");
+        printf("Escolha uma opcao: ");
         scanf("%d", &op);
 
         if (op == 1) {
@@ -137,12 +138,13 @@ int main() {
 
     do {
         printf("\n===== BIBLIOTECA UNIVERSITARIA =====\n");
-        printf("1- Modulo de Livros\n");
+        printf("1-Modulo de Livros\n");
         printf("2-Modulo de Alunos\n");
         printf("3-Modulo de Emprestimos\n");
         printf("4-Modulo de Categorias\n");
         printf("5-Relatorios\n");
         printf("6-Sair\n");
+        printf("Escolha uma opcao: ");
         scanf("%d", &op);
 
         // ================= LIVROS =================
@@ -150,12 +152,14 @@ int main() {
             int o;
 
             do {
+                printf("\n==== Livros ====\n");
                 printf("\n1-Cadastrar\n");
                 printf("2-Listar\n");
                 printf("3-Buscar\n");
                 printf("4-Editar\n");
                 printf("5-Excluir\n");
                 printf("6-Sair\n");
+                printf("Escolha uma opcao: ");
                 scanf("%d", &o);
 
                 if (o == 1) {
@@ -231,12 +235,14 @@ int main() {
             int o;
 
             do {
+                printf("\n==== ALUNOS ====\n");
                 printf("\n1-Cadastrar");
                 printf("\n2-Listar\n");
                 printf("3-Buscar\n");
                 printf("4-Editar\n");
                 printf("5-Excluir\n");
                 printf("6-Sair\n");
+                printf("Escolha uma opcao: ");
                 scanf("%d", &o);
 
                 if (o == 1) {
@@ -266,11 +272,13 @@ int main() {
             int o;
 
             do {
+                printf("\n==== EMPRESTIMOS ====\n");
                 printf("1-Registrar\n");
                 printf("2-Devolucao\n");
                 printf("3-Renovar\n");
                 printf("4-Listar\n");
                 printf("5 -Sair\n");
+                printf("Escolha uma opcao: ");
                 scanf("%d", &o);
 
                 if (o == 1) {
@@ -328,9 +336,11 @@ int main() {
             int o;
 
             do {
+                printf("\n ==== CATEGORIAS ====\n");
                 printf("1-Cadastrar\n");
                 printf("2-Listar\n");
                 printf("3 -Sair\n");
+                printf("Escolha uma opcao: ");
                 scanf("%d", &o);
 
                 if (o == 1) {
