@@ -1,5 +1,4 @@
 # Projeto-5---Biblioteca-Universitaria
-# Sistema de Biblioteca Universitária
 
 ## Descrição
 
